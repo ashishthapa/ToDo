@@ -10,15 +10,16 @@ beforeAll((done) => {
     done();
 });
 
-test('todo list are returned as json on root API call', async () => {
+test('Length of todo list on root API call is 5', async () => {
     const result = await api.get('/');
     expect(result.body.length).toBe(5);
 })
 
-test('todo list are returned as json on v1 for todo API', async () => {
+test('Value of task in second item of todo list is Eat Breakfast', async () => {
     const result = await api.get('/api/v1/todo');
     expect(result.body['1']['task']).toEqual("Eat Breakfast");
 });
+
 
 afterAll((done) => {
     console.log('AFTER ALL');
