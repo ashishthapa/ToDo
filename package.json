@@ -1,0 +1,24 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Simple todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishthapa/ToDo.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ReactJS",
+    "todo"
+  ],
+  "author": "Ashish Thapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishthapa/ToDo/issues"
+  },
+  "homepage": "https://github.com/ashishthapa/ToDo#readme"
+}
