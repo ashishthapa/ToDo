@@ -1,6 +1,5 @@
 
 exports.getAllTodos = (req, res) => {
-    res.json(todoList);
     res.send('Get all todo lists')
 }
 
