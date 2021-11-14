@@ -1,4 +1,6 @@
-const http = require('http');
+const express = require('express');
+const app = express();
+
 
 let todoList = [
     {
@@ -28,9 +30,16 @@ let todoList = [
       }
   ]
 
-const app = http.createServer((request, response) => {
-    response.writeHead(200, { 'Content-Type': 'application/json' })
-    response.end(JSON.stringify(todoList))
+app.get('/', (req, res) => {
+    res.send('<h1>Hello Todo App!</h1>');
+});
+
+  
+app.get('/api/v1/todo', (req, res) => {
+})
+
+app.put('/api/v1/todo/:id', (req, res) => {
+
 });
 
 const PORT = 3001
