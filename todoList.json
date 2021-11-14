@@ -1,27 +1,27 @@
 [
-    {
-        "id": 1,
-        "task": "Brush Teeth",
-        "status": "Done"
-    },
-    {
-        "id": 2,
-        "task": "Eat Breakfast",
-        "status": "Done"
-    },
-    {
-        "id": 3,
-        "task": "Go To School",
-        "status": "Done"
-    },
-    {
-        "id": 4,
-        "task": "Return Home",
-        "status": "Done"
-    },
-    {
-        "id": 5,
-        "task": "Complete Assignment",
-        "status": "Pending"
-    }
+  {
+    "id": 1,
+    "task": "Brush Teeth",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "task": "Eat Breakfast",
+    "status": "Done"
+  },
+  {
+    "id": 3,
+    "task": "Go To School",
+    "status": "Done"
+  },
+  {
+    "id": 4,
+    "task": "Return Home",
+    "status": "Done"
+  },
+  {
+    "id": 5,
+    "task": "Complete Assignment",
+    "status": "Pending"
+  }
 ]
