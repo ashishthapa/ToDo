@@ -22,7 +22,7 @@ exports.updateTodo = (req, res) => {
             console.log(typeof id);
             let todoIndex = parsedToDos.findIndex((todo => todo.id === id));
             console.log('todoindex', todoIndex);
-            if(todoIndex  < 0) {res.json('Index not found');}
+            if(todoIndex  < 0) {res.json('Index not found'); return; }
 
             parsedToDos[todoIndex]['status'] = parsedToDos[todoIndex]['status'] === "Pending" ? "Done" : "Pending";
             fs.writeFile(path, JSON.stringify(parsedToDos, null, 2), (err) => {
