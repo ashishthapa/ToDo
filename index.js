@@ -1,5 +1,13 @@
 const express = require('express');
+var cors = require('cors')
+
 const app = express();
+
+/** Allow cors to all routes */
+app.use(cors())
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+
 
 const todoController = require('./controllers/todo.controller');
 

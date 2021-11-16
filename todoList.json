@@ -2,7 +2,7 @@
   {
     "id": 11,
     "task": "Brush Teeth",
-    "status": "Pending"
+    "status": "Done"
   },
   {
     "id": 25,
@@ -12,12 +12,12 @@
   {
     "id": 39,
     "task": "Go To School",
-    "status": "Done"
+    "status": "Pending"
   },
   {
     "id": 14,
     "task": "Return Home",
-    "status": "Done"
+    "status": "Pending"
   },
   {
     "id": 55,
