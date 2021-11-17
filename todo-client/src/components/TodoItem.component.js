@@ -3,7 +3,7 @@ import TableCell from '@mui/material/TableCell';
 
 const TodoItem = ({todo, onTodoItemClick}) => {
     return (
-        <TableRow className={ "li-todo "+todo.status} 
+        <TableRow className={ "li-todo "+todo.status}
           onClick={() => onTodoItemClick(todo.id)} key={todo.id}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
               <TableCell component="th" scope="row">
@@ -11,7 +11,7 @@ const TodoItem = ({todo, onTodoItemClick}) => {
               </TableCell>
               <TableCell align="center">{todo.task}</TableCell>
               <TableCell align="center">{todo.status}</TableCell>
-            </TableRow>
+        </TableRow>
     )
 }
 export default TodoItem;

@@ -74,20 +74,19 @@ function App() {
     return (
         <div className="App" >
             <div className="todo-list-component" >
-                {hasError && <p class="error">Something went wrong.</p>}
-                {isLoading ? (<p class="loader"></p>) : (
+                {hasError && <p className="error">Something went wrong.</p>}
+                {isLoading ? (<p className="loader"></p>) : (
                     <TableContainer component={Paper} >
                         <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                            <TableHead >
-                                <TableRow >
+                            <TableHead>
+                                <TableRow>
                                     <TableCell > ID </TableCell>
                                     <TableCell align="center" > Task </TableCell>
                                     <TableCell align="center" > Status </TableCell>
                                 </TableRow >
                             </TableHead>
-                            <TableBody > {todos.map((todo) =>
-                                (< TodoItem key={todo.id} todo={todo} onTodoItemClick={updateTodoList} />))
-                            }
+                            <TableBody>{todos.map((todo) =>
+                                (< TodoItem key={todo.id} todo={todo} onTodoItemClick={updateTodoList} />))}
                             </TableBody>
                         </Table>
                     </TableContainer>
