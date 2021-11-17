@@ -17,7 +17,7 @@ Install Necessary Packages (npm install)
 Run react-dev server (npm run start). It should start react and display list of todo items from JSON file provided by the server. 
 
 To run tests in frontend: Open a new terminal and type CI=true npm run test.
-To test integretion test: Open a new terminal and type npm run Cypress:open. (Make sure both front and backend servers are running).
+To test integretion test: Open a new terminal and type npm run cypress:open. (Make sure both front and backend servers are running).
 
 If you have any questions: contact the author.
 
