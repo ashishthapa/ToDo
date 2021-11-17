@@ -52,7 +52,7 @@ function App() {
                     aferAPIFailure();
                     console.log('error', err);
                 });
-        }, 5000)
+        }, 1000)
     }, [])
 
     const getSingleTodo = (id) => {
@@ -81,8 +81,8 @@ function App() {
                             <TableHead>
                                 <TableRow>
                                     <TableCell > ID </TableCell>
-                                    <TableCell align="center" > Task </TableCell>
-                                    <TableCell align="center" > Status </TableCell>
+                                    <TableCell align="center" >Task</TableCell>
+                                    <TableCell align="center" >Status</TableCell>
                                 </TableRow >
                             </TableHead>
                             <TableBody>{todos.map((todo) =>

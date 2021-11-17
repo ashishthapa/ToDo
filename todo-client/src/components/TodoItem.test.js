@@ -12,9 +12,7 @@ test(`renders a todolist item`, () => {
 
 
     const component = render(<TodoItem todo={todo} />)
-
     const div = component.container.querySelector('.li-todo');
-
     expect(div).toHaveTextContent('Combing the hair');
     expect(div).toHaveTextContent('Combing the hair');
     expect(div).toHaveTextContent('Pending');

@@ -33,5 +33,8 @@ todo {
 
 table.MuiTable-root tr:hover {
     background-color: rgb(87, 90, 90);
+}
+table.MuiTable-root .status:hover {
+    background-color: rgb(87, 90, 90);
     cursor: pointer;
 }
