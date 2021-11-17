@@ -8,7 +8,7 @@ Install Necessary Packages (npm install)
 Run the server(npm run dev): It should run in port :3001
 Goto http://localhost:3001/ to verify it is working: This should provide list of todos already from JSON file.
 
-To run tests in Backend: Open a new terminal and type npm run test.
+To run tests in Backend: Open a new terminal and type npm run server:test
 
 
 ### ReactJS frontend should display and provide way to update status
